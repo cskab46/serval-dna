@@ -19,7 +19,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #ifndef __SERVAL_DNA__DEBUG_H
 #define __SERVAL_DNA__DEBUG_H
 
-#include "serval_types.h" // for bool_t
+#include "lang.h" // for bool_t
 #include "log.h"
 
 /* These DEBUG macros use the IF_DEBUG(FLAG) macro as the conditional.

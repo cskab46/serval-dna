@@ -17,6 +17,11 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 */
 
+#ifndef __SERVAL_DNA__FIFO_H
+#define __SERVAL_DNA__FIFO_H
+
+#include <stdint.h> // for uint8_t
+
 struct fifo;
 
 struct fifo 	*fifo_alloc(unsigned int size);
@@ -27,3 +32,5 @@ unsigned int	fifo_get(struct fifo *fifo, uint8_t *buffer, unsigned int len);
 unsigned int	fifo_unget(struct fifo *fifo, uint8_t *buffer, unsigned int len);
 unsigned int	fifo_avail(struct fifo *fifo);
 unsigned int	fifo_space(struct fifo *fifo);
+
+#endif // __SERVAL_DNA__FIFO_H

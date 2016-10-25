@@ -21,7 +21,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #define __SERVAL_DNA__HTTP_SERVER_H
 
 #include <limits.h>
-#include "serval_types.h"
+#include "lang.h" // for bool_t
 #include "debug.h"
 #include "net.h"
 #include "strbuf.h"

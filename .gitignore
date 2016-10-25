@@ -42,3 +42,6 @@ test.*.log
 /swift-api/Makefile
 /swift-api/build/
 /swift-api/test-swift
+/ios/Makefile
+/ios/build/
+/ios/frameworks/
